@@ -20,8 +20,8 @@ function backspace()
 {
 var number = Dial.value;
 var length = number.length - 1;
-var newnumber = number.substring(0, length);
-Dial.value = newnumber;
+var newNumber = number.substring(0, length);
+Dial.value = newNumber;
 }
 
 function Sqrt(x)
