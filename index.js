@@ -1,33 +1,33 @@
-var display = document.getElementById("display");
+var Dial = document.getElementById("Dial");
 
-function addToDisplay(x)
+function addToDial(x)
 {
-display.value += x;
+Dial.value += x;
 	if(x=="C")
 	{
-		display.value= " ";
+		Dial.value= " ";
 	}
 }
 
 function result()
 {
-	x = display.value;
+	x = Dial.value;
 	x = eval(x);
-	display.value = x;
+	Dial.value = x;
 }
 
 function backspace()
 {
-var number = display.value;
+var number = Dial.value;
 var length = number.length - 1;
 var newnumber = number.substring(0, length);
-display.value = newnumber;
+Dial.value = newnumber;
 }
 
 function Sqrt(x)
 {
-	x = display.value;
+	x = Dial.value;
 	x = Math.sqrt(x);
-	display.value = x;
+	Dial.value = x;
 
 }
