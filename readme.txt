@@ -1,3 +1,3 @@
-Calculator
+Calculator.
 
 https://shyyka.github.io/calculator/
